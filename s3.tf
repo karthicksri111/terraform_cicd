@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "my-s3-bucket" {
+resource "aws_s3_bucket" "karthi-s3-tfstate" {
   bucket_prefix = var.bucket_prefix
   acl = var.acl
   
